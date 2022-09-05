@@ -75,14 +75,14 @@ function likes(names) {
 https://github.com/shirazov/DopPer
 * The Application On The React For Memorizing Foreign Words, Enter A Word And Its Translation And Can Flip This Card
 https://github.com/shirazov/english-cards
- * One of the repositories (different repositories contain different parts of the functionality) of my thesis, which was under development, the essence of the project itself is working with ibeacon dachiki based on Bluetooth, to monitor the movements of employees on the territory of the enterprise. The entrance to the project is implemented through tokens, everything is reliably secure. React Native without Expo
+* One of the repositories (different repositories contain different parts of the functionality) of my thesis, which was under development, the essence of the project itself is working with ibeacon dachiki based on Bluetooth, to monitor the movements of employees on the territory of the enterprise. The entrance to the project is implemented through tokens, everything is reliably secure. React Native without Expo
  https://github.com/shirazov/diplom_every_Point
- *  I participated in a hackathon where I developed an application for phone using ReactNative (___although we won this hackathon and our team received 150k rubles___)
+*  I participated in a hackathon where I developed an application for phone using ReactNative (___although we won this hackathon and our team received 150k rubles___)
    https://github.com/shirazov/dobroBro (this is a link to an approximate unfinished project)
-  ## 7. Education:watermelon:
-  * Graduated from the Krasnoyarsk College of Radio Electronics and Information Technology __with honors__ (_with a red diploma_)
-     * Majoring in programming in computer systems
-   * At the moment I am studying at the SibGAU University, bachelor's degree at the Faculty of Fundamental Physics (_if possible, I want to transfer to my faculty for programming_)
-  ## 8. English:peach:
+## 7. Education:watermelon:
+* Graduated from the Krasnoyarsk College of Radio Electronics and Information Technology __with honors__ (_with a red diploma_)
+   * Majoring in programming in computer systems
+* At the moment I am studying at the SibGAU University, bachelor's degree at the Faculty of Fundamental Physics (_if possible, I want to transfer to my faculty for programming_)
+## 8. English:peach:
   >There is always something to strive for, especially for me with knowledge of the language at the ___A1 elementary - A2 level___
   
