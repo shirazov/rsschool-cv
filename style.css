@@ -36,7 +36,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	min-height: 100vh;
 }
 
 .nav-wrapper {
@@ -100,6 +99,72 @@ body {
 	background-color: #ffffff;
 }
 
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 0;
+
+	min-height: 100vh;
+}
+
+.ava_div {
+	margin-right: 25px;
+}
+
+.ava {
+	height: 400px;
+	border: 3.5px solid white;
+}
+
+.about {
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+}
+
+.about h1 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.about p {
+	text-align: justify;
+}
+
+.goal{
+	text-align: center;
+}
+
+.about_h3{
+	margin-top: 20px;
+}
+
+.about_h3 p{
+	text-align: justify;
+}
+
+.skills ul{
+	list-style-type: square;
+}
+.skills{
+	padding-left: 24px;
+}
+
+pre{
+	display: flex;
+	justify-content: center;
+	background: #ffffff;
+	opacity: 52%;
+	margin-bottom: 30px;
+}
+
+.eduction{
+	margin-bottom: 30px;
+}
+
+.eng{
+	margin-bottom: 30px;
+}
 
 
 
