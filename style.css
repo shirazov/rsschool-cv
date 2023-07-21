@@ -180,6 +180,7 @@ h1{
 
 .about_tx {
 	margin-bottom: 50px;
+	font-size: 18px;
 }
 .about_tx b i {
 	text-shadow: 3px 3px #feba1b;
@@ -209,12 +210,18 @@ h1{
 .about_h3 p{
 	text-align: justify;
 }
-
+.brif b{
+	display: flex;
+	justify-content: center;
+}
 .skills{
 	padding-top: 10px;
 	padding-left: 24px;
 }
-
+.skills ul{
+	font-size: 18px;
+	font-weight: 600;
+}
 pre{
 	display: flex;
 	justify-content: center;
