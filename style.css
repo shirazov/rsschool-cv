@@ -1,300 +1,521 @@
 * {
-	margin: 0;
-	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
-body {
-	font-family: 'Montserrat', sans-serif;
-	color: #000000;
-	font-weight: 500;
-	background-color: #f87005;
-	background-image: radial-gradient(circle 1355px at center, #ff9201, #f87005 100%);
-	
-
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-body ul {
-	list-style-type: square;
-}
-
-
-.header {
-	width: 100%;
-	
+::-webkit-scrollbar {
+    width: 0;
 }
 
 .container {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: rgba(255, 255, 255, 0.85);
-	
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	padding: 0 30px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    background: #101010;
+    margin: auto;
 }
 
-.nav-wrapper {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	background: #000;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-
-	align-items: center;
-
-	padding: 30px 0;
+nav {
+    margin: 75px 21px 75px 150px;
+    width: 728px;
 }
 
-.logo {
-	margin: 10px 0;
-	font-weight: 900;
-	font-size: 28px;
-	line-height: 1;
-	color: #000000;
-	display: flex;
-	justify-content: center;
-	padding-top: 10px;
-	padding-bottom: 40px;
-	text-shadow: 3px 3px #feba1b
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: left;
+    gap: 60px;
 }
 
-.logo span {
-	color: #f87005;
-	text-shadow: 3px 3px #000000
+nav ul li a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
 
-.nav {
-	color: #ffffff;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
-
+.hello_shirza {
+    display: flex;
+    height: 694px;
+    padding: 0 0 0 150px;
 }
 
-.nav_item {
-	margin-right: 50px;
+.hello_tx {
+    position: relative;
+    width: 728px;
+    padding: 90px 0 0 0;
 }
 
-.nav_item:last-child {
-	margin-right: 0px;
+.hello_tx span {
+    color: #1AD216;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
-.nav_link {
-	color: #ffffff;
-	text-decoration: none;
-	font-size: 18px;
-	font-weight: 500;
-	line-height: 1;
-
-	padding: 5px 10px;
-
-	display: inline-block;
-	vertical-align: top;
-	border: 3px solid white;
-	position: relative;
-	transition: color 0.25s linear;
-	transition: background 0.25s linear;
+.hello_tx h1 {
+    margin-top: 6px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 38px;
 }
 
-.nav_link:hover {
-	color: #000000;
-	background-color: #ffffff;
+.hello_tx p {
+    color: rgba(255, 255, 255, 0.73);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-
-
-
-.main {
-	display: flex;
-	flex-direction: column;
-	padding: 30px 0;
-
-	min-height: 100vh;
-}
-h1{
-	margin: 20px;
-	text-shadow: 3px 3px #ff9201
-}
-.div_col{
-	display: flex;
-	flex-direction: row;
-	border-bottom: solid #000;
-	margin-bottom: 30px;
-}
-.column_1{
-	width: 50%;
-	padding-right: 10px;
-}
-.column_2{
-	width: 50%;
-	padding-left: 10px;
-}
-.ava_div {
-	margin-left: auto;
-	margin-right: auto;
+.brif {
+    margin-bottom: 128px;
 }
 
-.ava {
-	height: 300px;
-	border: 7px solid #000;
+.ula {
+    position: absolute;
+    top: -50px;
+    right: 500px;
 }
-.contacts{
-	padding-bottom: 30px;
-	border-bottom: solid #000;
-	
+
+.saturn {
+    position: absolute;
+    top: 315px;
+    right: 115px;
 }
-.contacts li{
-	list-style-type: none
+
+.hello_img {
+    height: 0;
 }
-.contacts a{
-	text-decoration: none;
-	display: flex;
-	align-items: center;
-	padding: 2px;
-	color:#000;
+
+.img_shirza_div {
+    width: 712px;
+    height: 862px;
+    transition: 5s;
+    background: url(/assets/img/shirza_img.png);
+    position: relative;
+    top: -169px
 }
-.contacts .soc{
-	transition: 0.7s;
+
+.img_shirza_div:hover {
+    background: url(/assets/img/shirza_img.png) left center no-repeat;
+    background-size: 1200px;
 }
-.contacts .soc:hover {
-	transform: translateX(+14px)
+
+#name_shirza:hover {
+    cursor: pointer;
 }
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #FFF;
+}
+
+.about_and_contacts {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.523%;
+    /* 30.605px */
+    display: flex;
+}
+
+.about_and_contacts h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 35px 150px;
+}
+
+.about_and_contacts span {
+    color: #1AD216;
+}
+
 .about {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+    width: 51.4%;
+}
+
+.line_v {
+    width: 1px;
+    background: #FFF;
 }
 
 .about_tx {
-	margin-bottom: 50px;
-	font-size: 18px;
-}
-.about_tx b i {
-	text-shadow: 3px 3px #feba1b;
+    padding: 52px 20px 65px 150px;
 }
 
-
-.about h1 {
-	text-align: center;
-	padding-bottom: 20px;
+.about_tx p:nth-child(3) {
+    margin: 1px 0px 34px 0;
 }
 
-.about p {
-	text-align: justify;
-}
-.brif{
-	margin-bottom: 10px;
-	border-bottom: solid #000;
-}
-.goal{
-	text-align: center;
+.about_tx p:nth-child(4) {
+    margin: 0px 0px 73px 0;
 }
 
-.about_h3{
-	margin-top: 20px;
+.about_tx p:nth-child(5) {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 142.523%;
+    /* 34.205px */
 }
 
-.about_h3 p{
-	text-align: justify;
-}
-.brif b{
-	display: flex;
-	justify-content: center;
-}
-.skills{
-	padding-top: 10px;
-	padding-left: 24px;
-}
-.skills ul{
-	font-size: 18px;
-	font-weight: 600;
-}
-pre{
-	display: flex;
-	justify-content: center;
-	background: #ff9201;
-	background-image: radial-gradient(circle 1355px at center, #ff9201, hsl(46, 100%, 81%) 100%);
-	box-shadow: 0 0 10px 1px;
-	margin-bottom: 30px;
-}
-.code1 h1{
-	padding: 10px 70px 0 70px;
+.contacts {
+    width: 50%;
 }
 
-.eduction{
-	padding: 0 70px 30px 70px;
-	border-bottom: solid #000;
-}
-.eduction b{
-	text-shadow: 3px 3px #feba1b;
-}
-.eng{
-	padding: 30px 70px;
+.contacts_h2 {
+    margin-left: 100px;
 }
 
-
-
-.footer {
-	color: white;
-	width: 100%;
-	padding: 20px 0;
-	background: #000;
-
-	font-weight: 300;
-	font-size: 16px;
-
-	line-height: 2;
-
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+.contacts ul {
+    margin: 30px 0 0 97px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 30px; */
 }
 
-.footer_item {
-	width: 16%;
+.contacts ul img {
+    margin-right: 28px;
+    vertical-align: middle;
 }
 
-.rsssvg,
-.soc {
-	height: 32px;
+.contacts ul li span {
+    color: rgba(255, 255, 255, 0.90);
 }
 
-.soc_img img {
-	position: relative;
-	display: flex;
-	justify-content: space-between;
-	cursor: pointer;
-	transition: 0.7s;
+.contacts ul li a {
+    display: flex;
+    align-items: center;
+    height: 75px;
 }
 
-.soc_img {
-	display: flex;
-	justify-content: space-between;
+.contacts ul a {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.523%;
+    /* 34.205px */
+    text-decoration: none;
 }
 
-.soc_img img:hover {
-	transform: translateY(-10px)
+.phone_a {
+    display: flex;
+    flex-direction: row;
 }
 
-.author {
-	color: #f87005;
-	text-decoration: none;
-	transition: 0.7s;
+.phone_p {
+    display: flex;
+    flex-direction: column;
 }
 
-.footer .author:hover {
-	box-shadow: 11px 8px 25px 1px rgba(255, 140, 24, 0.2);
+.skills {
+    background: url(/assets/img/dicor/setka.svg) no-repeat;
+    background-position: 0 -170px;
+    padding: 150px 170px 100px 170px;
+}
+
+.h_div {
+    display: flex;
+    justify-content: center;
+    margin: 0 50px 100px 50px;
+}
+
+.skills h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin: 0 45px;
+}
+
+.skills_group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 0;
+    justify-content: space-between;
+}
+
+.skills_items {
+    border-radius: 61.5px;
+    border: 3px solid #3AB738;
+    background: #101010;
+    height: 87px;
+    display: flex;
+    align-items: center;
+}
+
+.skills_items p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 50px;
+    text-align: center;
+    line-height: 95.5%;
+}
+
+.skills_text {
+    display: flex;
+    margin-top: 100px;
+    gap: 120px;
+}
+
+.hard_sk {
+    width: 560px;
+    position: relative;
+}
+
+.krest_dicor {
+    position: absolute;
+    right: 190px;
+    top: -30px;
+}
+
+.krest_dicor1 {
+    position: absolute;
+    right: 457px;
+    top: 50px;
+    transform: rotate(45deg);
+}
+
+.krest_dicor2 {
+    position: absolute;
+    right: 367px;
+    top: -30px;
+}
+
+.krest_dicor3 {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    transform: rotate(45deg);
+}
+
+.soft_sk {
+    position: relative;
+    width: 460px;
+}
+
+.skills_text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 55px 100px;
+}
+
+.skills_text p {
+    color: rgba(255, 255, 255, 0.95);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.023%;
+    /* 32.165px */
+}
+
+.sk_p_div {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+}
+
+.hr_p_d {
+    width: 560px;
+}
+
+.volna_dicor {
+    position: absolute;
+    right: 150px;
+    bottom: -25px;
+}
+
+.code {
+    padding: 0 150px 100px 150px;
+    position: relative;
+}
+
+.code h2 {
+    margin: 60px 0 70px 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.code pre {
+    position: relative;
+    z-index: 1;
+    width: 1140px;
+    height: 258px;
+    border-radius: 39px;
+    background: #E4E4E4;
+}
+
+.code code {
+    color: rgba(0, 0, 0, 0.95);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1020px;
+    height: 208px;
+}
+
+.code_div {
+    height: 258px;
+}
+
+.border_code {
+    z-index: 0;
+    position: relative;
+    width: 1140px;
+    height: 258px;
+    border-radius: 39px;
+    border: 1px solid #FFF;
+    right: -16px;
+    bottom: 244px;
+}
+
+.edu {
+    position: relative;
+    padding: 60px 150px 50px 150px;
+}
+
+.mars {
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    z-index: 0;
+}
+
+.edu h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 70px;
+    z-index: 10;
+}
+
+.edu_div {
+    display: flex;
+    gap: 100px
+}
+
+.univ_div,
+.coll_div {
+    z-index: 10;
+}
+
+.college,
+.univ {
+    z-index: 10;
+    border-radius: 53px;
+    border: 3px solid #FFF;
+    background: #101010;
+
+    padding: 55px 74px 35px 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    /* width: 38%; */
+    /* width: 521px;
+    height: 405px; */
+    position: relative;
+    z-index: 1;
+}
+
+.college img,
+.univ img {
+    width: 100px;
+    height: 100px;
+    margin: 0 0 50px 0;
+}
+
+.date {
+    color: rgba(255, 255, 255, 0.46);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.edu_tx {
+    height: 120px;
+}
+
+.coll_div,
+.univ_div {
+    width: 520px;
+    height: 405px;
+    position: relative;
+}
+
+.coll_border,
+.univ_border {
+    z-index: 0;
+    width: 520px;
+    height: 405px;
+    position: absolute;
+    right: -17px;
+    top: -15px;
+    border-radius: 53px;
+    border: 1px solid #B0B0B0;
+}
+
+.mark_green{
+    color: #1AD216;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
