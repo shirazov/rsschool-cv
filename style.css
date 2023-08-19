@@ -385,6 +385,32 @@ nav ul li a {
     background: #E4E4E4;
 }
 
+.code pre {
+    background: linear-gradient(322deg, #e4e4e4, #a7ffaa, #e4e4e4, #94ffa1, #e4e4e4, #e4e4e4);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: ShirazovGrad_1 30s ease infinite;
+    -moz-animation: ShirazovGrad_1 30s ease infinite;
+    animation: ShirazovGrad_1 30s ease infinite;
+}
+
+@-webkit-keyframes ShirazovGrad_1 {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+@-moz-keyframes ShirazovGrad_1 {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+@keyframes ShirazovGrad_1 {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+
+
 .code code {
     color: rgba(0, 0, 0, 0.95);
     font-family: Inter;
@@ -522,6 +548,8 @@ nav ul li a {
 
 .languages {
     padding: 50px 150px 224px 150px;
+    background: url(assets/img/dicor/elis_grad.png) no-repeat;
+    background-position: -80px 420px;
 }
 
 .languages h2 {
@@ -546,6 +574,31 @@ nav ul li a {
     border: 2px solid #1AD216;
     background: #101010;
     padding: 55px 123px;
+}
+
+.lang_item, .skills_items {
+    background: linear-gradient(228deg, #101010, #000000, #0c900a, #000000, #101010, #101010);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: ShirazovGrad 37s ease infinite;
+    -moz-animation: ShirazovGrad 37s ease infinite;
+    animation: ShirazovGrad 37s ease infinite;
+}
+
+@-webkit-keyframes ShirazovGrad {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@-moz-keyframes ShirazovGrad {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@keyframes ShirazovGrad {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
 }
 
 .lang_item p {
