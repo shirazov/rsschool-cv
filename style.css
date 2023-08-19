@@ -511,11 +511,141 @@ nav ul li a {
     border: 1px solid #B0B0B0;
 }
 
-.mark_green{
+.mark_green {
     color: #1AD216;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.languages {
+    padding: 50px 150px 224px 150px;
+}
+
+.languages h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.lang_group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.lang_item {
+    text-align: center;
+    border-radius: 39px;
+    border: 2px solid #1AD216;
+    background: #101010;
+    padding: 55px 123px;
+}
+
+.lang_item p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lang_item p span {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    padding: 90px 150px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    color: rgba(255, 255, 255, 0.46);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 45px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.46);
+}
+
+.f_soc_1div {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.f_soc_1div p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.f_soc_1div a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.by {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_soc_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_soc_div img{
+    height: 80px;
+}
+
+.icon_soc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.icon_soc ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
